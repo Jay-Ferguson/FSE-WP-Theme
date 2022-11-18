@@ -36,6 +36,15 @@ endif;
 
 add_action( 'wp_enque_scripts', 'papperless_styles' );
 
+/*-------------------------
+Custom the exerpt length
+-------------------------*/
+
+function custom_excerpt_length($length) {
+     return 25;
+}
+add_filter('excerpt_length', 'custom_excerpt_length');
+
 
 
 
