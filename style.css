@@ -24,3 +24,16 @@ Use it to make something cool, have fun, and share what you've learned with othe
 padding-left: 1.5rem;
 padding-right:1.5rem;
 }
+
+
+
+.category_sidebar {
+     list-style:none;
+     margin:0;
+     padding:0;
+}
+
+.category_sidebar li { 
+     padding:1rem;
+     text-decoration none;
+}
