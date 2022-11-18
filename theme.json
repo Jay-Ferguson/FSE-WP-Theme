@@ -27,8 +27,12 @@
                "slug":"paperless-red",
                "color":"#CD3937",
                "name":"Red"
+           },
+           {
+               "slug":"paperless-blue",
+               "color":"#232058",
+               "name":"Blue"
            }
-
          ]
        },
        "typography": {
@@ -55,9 +59,9 @@
              ]
            },
            {
-             "fontFamily": "Stolzl, Arial, sans-serif",
-             "slug": "stolzl",
-             "name": "Headings - Stolzl"
+             "fontFamily": "Rubik, Arial, sans-serif",
+             "slug": "rubik",
+             "name": "Headings - rubik Mono"
            }
          ],
          "fontSizes": [
@@ -75,7 +79,12 @@
              "slug": "regular",
              "size": "1rem",
              "name": "Regular"
-           }
+           },
+           {
+               "slug": "large",
+               "size": "1.2rem",
+               "name": "Large"
+               }
          ]
        },
        "custom": {
@@ -121,7 +130,7 @@
        "elements": {
          "h1": {
            "typography": {
-             "fontFamily": "var(--wp--preset--font-family--stolzl)",
+             "fontFamily": "var(--wp--preset--font-family--rubik)",
              "fontWeight": "800",
              "lineHeight": "var(--wp--custom--line-height--small)",
              "fontSize": "var(--wp--custom--typography--font-size--heading-1)"
@@ -129,7 +138,7 @@
          },
          "h2": {
            "typography": {
-             "fontFamily": "var(--wp--preset--font-family--stolzl)",
+             "fontFamily": "var(--wp--preset--font-family--rubik)",
              "fontWeight": "800",
              "lineHeight": "var(--wp--custom--line-height--small)",
              "fontSize": "var(--wp--custom--typography--font-size--heading-2)"
@@ -137,7 +146,7 @@
          },
          "h3": {
            "typography": {
-             "fontFamily": "var(--wp--preset--font-family--stolzl)",
+             "fontFamily": "var(--wp--preset--font-family--rubik)",
              "fontWeight": "800",
              "lineHeight": "var(--wp--custom--line-height--small)",
              "fontSize": "var(--wp--custom--typography--font-size--heading-3)"
@@ -145,7 +154,7 @@
          },
          "h4": {
            "typography": {
-             "fontFamily": "var(--wp--preset--font-family--stolzl)",
+             "fontFamily": "var(--wp--preset--font-family--rubik)",
              "fontWeight": "800",
              "lineHeight": "var(--wp--custom--line-height--small)",
              "fontSize": "var(--wp--custom--typography--font-size--heading-4)"
@@ -153,7 +162,7 @@
          },
          "h5": {
            "typography": {
-             "fontFamily": "var(--wp--preset--font-family--stolzl)",
+             "fontFamily": "var(--wp--preset--font-family--rubik)",
              "fontWeight": "800",
              "lineHeight": "var(--wp--custom--line-height--small)",
              "fontSize": "var(--wp--custom--typography--font-size--heading-5)"
@@ -161,7 +170,7 @@
          },
          "h6": {
            "typography": {
-             "fontFamily": "var(--wp--preset--font-family--stolzl)",
+             "fontFamily": "var(--wp--preset--font-family--rubik)",
              "fontWeight": "800",
              "lineHeight": "var(--wp--custom--line-height--small)",
              "fontSize": "var(--wp--custom--typography--font-size--heading-6)"
