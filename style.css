@@ -20,3 +20,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,800;1,800&display=swap');
 
+:where(.wp-block-group.has-background) {
+padding-left: 1.5rem;
+padding-right:1.5rem;
+}
