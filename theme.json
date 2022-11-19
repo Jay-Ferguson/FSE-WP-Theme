@@ -183,6 +183,11 @@
          }
        },
        "blocks": {
+          "core/query": {
+               "color":{
+                    "text":"red"
+               }
+          },
          "core/latest-posts": {
            "spacing": {
              "padding": {

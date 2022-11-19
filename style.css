@@ -25,7 +25,9 @@ padding-left: 1.5rem;
 padding-right:1.5rem;
 }
 
-
+body{
+     height:100vh;
+}
 
 .category_sidebar {
      list-style:none;
@@ -35,5 +37,5 @@ padding-right:1.5rem;
 
 .category_sidebar li { 
      padding:1rem;
-     text-decoration none;
+     text-decoration: none;
 }
